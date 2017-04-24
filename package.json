@@ -1,0 +1,27 @@
+{
+  "name": "listicle",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "build-css": "node-sass --include-path scss scss/style.scss public/css/style.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\"",
+    "start-server": "node ./bin/www",
+    "start": "concurrently --kill-others \"npm run start-server\" \"npm run watch-css\""
+  },
+  "dependencies": {
+    "body-parser": "~1.17.1",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.3",
+    "express": "~4.15.2",
+    "foundation-sites": "^6.3.1",
+    "hbs": "~4.0.1",
+    "livereload": "^0.6.2",
+    "morgan": "~1.8.1",
+    "node-sass": "^4.5.2",
+    "nymag-handlebars": "^1.23.0",
+    "serve-favicon": "~2.4.2"
+  },
+  "devDependencies": {
+    "concurrently": "^3.4.0"
+  }
+}
