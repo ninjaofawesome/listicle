@@ -5,6 +5,7 @@
     "author": "John Q. Public",
     "topic": "dining out",
     "image": "https://res.cloudinary.com/ninjaofawesome/image/upload/c_scale,h_457,w_610/v1493131754/hannah/projects/listicle/noodlebowl.jpg",
+    "alt": "noodle dish photo",
     "deck": "you won't regret this.",
     "url": "http://www.grubstreet.com/bestofnewyork/best-flushing-chinese-food-stall.html"
   },
@@ -13,6 +14,7 @@
     "title": "plant eaters, rejoice in thy sandwich choices",
     "author": "Olive Twoo-Eat",
     "image": "https://res.cloudinary.com/ninjaofawesome/image/upload/c_scale,h_457,w_610/v1493131754/hannah/projects/listicle/food-rainbow.jpg",
+    "alt": "vegetarian food pyramid",
     "deck": "vegetables for everyone!",
     "url": "http://www.grubstreet.com/bestofnewyork/the-absolute-best-vegetarian-sandwich-in-nyc.html"
   },
@@ -21,6 +23,7 @@
     "title": "cute food, and how to enjoy it",
     "author": "Jane Dough",
     "image": "https://res.cloudinary.com/ninjaofawesome/image/upload/c_scale,h_457,w_610/v1493131754/hannah/projects/listicle/hotdogs.jpg",
+    "alt": "hotdog dog face",
     "deck": "we should all get this excited about our food.",
     "url": "http://www.grubstreet.com/2016/06/cute-toddler-very-excited-by-food.html"
   },
@@ -30,6 +33,7 @@
     "author": "Charles Entertainment Cheese",
     "topic": "pizza",
     "image": "https://res.cloudinary.com/ninjaofawesome/image/upload/c_scale,h_457,w_610/v1493131756/hannah/projects/listicle/vegetables-italian-pizza-restaurant.jpg",
+    "alt": "pizza in pan",
     "deck": "how will yours stack up?",
     "url": "http://www.grubstreet.com/bestofnewyork/best-pizza-slice-nyc.html"
   },
@@ -38,6 +42,7 @@
     "title": "corn dogs are everyone's favorite",
     "author": "Barry Muffins",
     "image": "https://res.cloudinary.com/ninjaofawesome/image/upload/c_scale,h_457,w_610/v1493131753/hannah/projects/listicle/corn-dog.jpg",
+    "alt": "corn dogs",
     "deck": "how can you not love these things?",
     "url": "http://www.grubstreet.com/2009/05/its_official_corn_dogs_are_a_t.html"
   },
@@ -47,6 +52,7 @@
     "author": "Pepper Thyme",
     "topic": "lunch",
     "image": "https://res.cloudinary.com/ninjaofawesome/image/upload/c_scale,h_457,w_610/v1493138912/hannah/projects/listicle/salad.png",
+    "alt": "lunchtime salads",
     "deck": "if you have to eat a salad, make sure its extra",
     "url": "http://www.grubstreet.com/pages/cj1ca9wdu004t8aye2829whvj.html"
   },
@@ -55,6 +61,7 @@
     "title": "egg rolls..  with a twist!",
     "author": "Jasmine Rice",
     "image": "https://res.cloudinary.com/ninjaofawesome/image/upload/c_scale,h_457,w_610/v1493131755/hannah/projects/listicle/eggroll.jpg",
+    "alt": "egg roll hybrid",
     "deck": "get your egg roll experience up on this level.",
     "url": "http://www.grubstreet.com/2014/02/fung-tu-original-egg-roll-version-2.html"
   },
@@ -63,6 +70,7 @@
     "title": "these dishes are guaranteed to turn heads",
     "author": "I.C. Cooking",
     "image": "https://res.cloudinary.com/ninjaofawesome/image/upload/c_scale,h_457,w_610/v1493131753/hannah/projects/listicle/tacos.jpg",
+    "alt": "beautiful food to eat",
     "deck": "presentation is important.",
     "url": "http://www.grubstreet.com/2015/04/most-beautiful-dishes-slideshow.html"
   }
