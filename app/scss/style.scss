@@ -1,14 +1,10 @@
-body {
-  color: #00ff00;
-  background: blue;
-}
+// foundation
+@import 'node_modules/foundation-sites/scss/foundation.scss';
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-weight: 900;
-  color: purple;
-}
+// base styles
+@import 'base/variables';
+@import 'base/mixins';
+@import 'base/structure';
+@import 'base/type';
+
+

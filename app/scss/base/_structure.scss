@@ -1,0 +1,12 @@
+body,
+html {
+  height: 100%;
+  overflow: scroll;
+}
+
+html {
+  background-color: $white;
+  color: $black;
+  font-size: 16px;
+  font-family: $sans-serif;
+}
