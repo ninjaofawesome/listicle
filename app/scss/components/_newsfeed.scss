@@ -1,0 +1,44 @@
+.newsfeed {
+
+  &__article-list {
+    list-style-type: none;
+  }
+
+  &__eyebrow {
+    @include Eyebrow();
+
+    &--topic {
+      &::before {
+        content: "|";
+        display: "inline-block";
+        padding-right: rem-calc(5);
+      }
+    }
+  }
+}
+
+.article {
+  &__title {
+    @include ArticleHeadline();
+  }
+
+  &__author {
+    @include Author();
+  }
+
+  &__deck {
+    @include Teaser();
+  }
+
+  &__link {
+    @include ReadMore();
+  }
+}
+
+@include breakpoint(small) {
+  .article {
+    &__title {
+      color: blue;
+    }
+  }
+}
