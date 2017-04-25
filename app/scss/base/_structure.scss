@@ -10,3 +10,9 @@ body {
   font-size: 16px;
   font-family: $sans-serif;
 }
+
+.navbar,
+.newsfeed-section,
+.footer {
+  @include flex-grid-row();
+}

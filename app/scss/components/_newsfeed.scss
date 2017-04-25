@@ -1,5 +1,4 @@
 .newsfeed {
-
   &__article-list {
     list-style-type: none;
   }
@@ -35,10 +34,16 @@
   }
 }
 
-@include breakpoint(small) {
-  .article {
-    &__title {
-      color: blue;
-    }
+@include breakpoint(large up) {
+  .newsfeed {
+    @include flex-grid-column(8);
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+@include breakpoint(medium down) {
+  .newsfeed {
+    @include flex-grid-column(12);
   }
 }
