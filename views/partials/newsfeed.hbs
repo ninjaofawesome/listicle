@@ -1,0 +1,19 @@
+<section class="newsfeed">
+  <ul class="newsfeed__article-list">
+  {{#each article}}
+    <li class="newsfeed__article-item">
+      <div class="newsfeed__eyebrow">
+        <time class="newsfeed__eyebrow--time">11AM</time>
+        {{#if topic}}
+        <span class="newsfeed__eyebrow--topic">{{topic}}</span>
+        {{/if}}
+      </div>
+      <h2 class="article__title">{{title}}</h2>
+      <p class="article__author">By {{author}}</p>
+      <img class="article__poster-img" src="{{image}}" alt="{{alt}}">
+      <p class="article__deck">{{deck}}</p>
+      <a class="article__link" href="{{url}}" target="_blank">read more</a>
+    </li>
+  {{/each}}
+  </ul>
+</section>
