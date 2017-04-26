@@ -12,6 +12,7 @@
     "express": "~4.15.2",
     "foundation-sites": "^6.3.1",
     "hbs": "~4.0.1",
+    "jquery": "^3.2.1",
     "morgan": "~1.8.1",
     "nymag-handlebars": "^1.23.0",
     "serve-favicon": "~2.4.2"

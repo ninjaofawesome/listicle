@@ -1,3 +1,5 @@
+<script src="./app/js/images.js"></script>
+
 <section class="newsfeed">
   <ul class="newsfeed__article-list">
   {{#each article}}
@@ -8,11 +10,11 @@
         <span class="newsfeed__eyebrow--topic">{{topic}}</span>
         {{/if}}
       </div>
-      <h2 class="article__title">{{title}}</h2>
-      <p class="article__author">By {{author}}</p>
-      <img class="article__poster-img" src="{{image}}" alt="{{alt}}">
-      <p class="article__deck">{{deck}}</p>
-      <a class="article__link" href="{{url}}" target="_blank">read more</a>
+      <h2 class="newsfeed-article__title">{{title}}</h2>
+      <p class="newsfeed-article__author">By {{author}}</p>
+      <img class="newsfeed-article__poster-img" src="{{image}}" alt="{{alt}}">
+      <p class="newsfeed-article__deck">{{deck}}</p>
+      <a class="newsfeed__link" href="{{url}}" target="_blank">read more</a>
     </li>
   {{/each}}
   </ul>
