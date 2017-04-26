@@ -12,17 +12,6 @@
     &:first-of-type {
       padding-top: 0;
     }
-
-    &::after {
-      content: "";
-      position: absolute;
-      display: inline-block;
-      width: 80.5%;
-      height: rem-calc(1);
-      background-color: $border-gray;
-      left: 0;
-      bottom: 0;
-    }
   }
 
   &__eyebrow {
@@ -82,10 +71,22 @@
     display: block;
     margin: 0 auto;
 
+
     &__article-item {
 
       &--desktop {
         display: block;
+
+        &::after {
+          content: "";
+          position: absolute;
+          display: inline-block;
+          width: 97%;
+          height: rem-calc(1);
+          background-color: $border-gray;
+          left: 0;
+          bottom: 0;
+        }
       }
 
       &--mobile {

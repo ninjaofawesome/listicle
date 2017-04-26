@@ -33,15 +33,6 @@ body {
   padding-top: 1.875rem; }
   .newsfeed__article-item:first-of-type {
     padding-top: 0; }
-  .newsfeed__article-item::after {
-    content: "";
-    position: absolute;
-    display: inline-block;
-    width: 80.5%;
-    height: 0.0625rem;
-    background-color: #eee;
-    left: 0;
-    bottom: 0; }
 
 .newsfeed__eyebrow {
   color: #555;
@@ -119,6 +110,15 @@ body {
 @media screen and (min-width: 64em) {
     .newsfeed__article-item--desktop {
       display: block; }
+      .newsfeed__article-item--desktop::after {
+        content: "";
+        position: absolute;
+        display: inline-block;
+        width: 97%;
+        height: 0.0625rem;
+        background-color: #eee;
+        left: 0;
+        bottom: 0; }
     .newsfeed__article-item--mobile {
       display: none; } }
 
