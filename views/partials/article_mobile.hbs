@@ -1,0 +1,15 @@
+<div class="newsfeed-article__poster-img-container">
+  <img class="image-wrapper newsfeed-article__poster-img--mobile" src="{{image}}" alt="{{alt}}">
+</div>
+<div class="newsfeed__text-box">
+  <div class="newsfeed__eyebrow">
+    <time class="newsfeed__eyebrow--time">11AM</time>
+    {{#if topic}}
+    <span class="newsfeed__eyebrow--topic">{{topic}}</span>
+    {{/if}}
+  </div>
+  <h2 class="newsfeed-article__title">{{title}}</h2>
+  <p class="newsfeed-article__author">By {{author}}</p>
+  <p class="newsfeed-article__deck">{{deck}}</p>
+  <a class="newsfeed__link" href="{{url}}" target="_blank">read more</a>
+</div>
