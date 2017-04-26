@@ -8,14 +8,33 @@
   line-height: rem-calc(27);
 }
 
-@mixin ArticleHeadlineGreen(){
-  color: $black;
+@mixin NavbarLogo(){
+  color: $brand-green;
   font-family: $serif;
-  font-size: rem-calc(23);
-  font-weight: 400;
-  line-height: rem-calc(27);
-  background-color: $brand-green;
+  font-size: rem-calc(30);
+  font-weight: 700;
+  line-height: rem-calc(34);
   display: inline-block;
+}
+
+@mixin PageLink(){
+  @include link-transition(350ms);
+  color: $brand-green;
+  font-family: $sans-serif;
+  font-size: rem-calc(11);
+  font-weight: 300;
+  line-height: rem-calc(15);
+  display: inline-block;
+  text-decoration: none;
+  text-transform: uppercase;
+
+  &:active,
+  &:focus,
+  &:hover,
+  &:visited {
+    text-decoration: none;
+    color: $brand-green;
+  }
 }
 
 @mixin Author(){
@@ -34,7 +53,7 @@
   line-height: rem-calc(12);
 }
 
-@mixin ReadMore {
+@mixin ReadMore() {
   color: $brand-red;
   font-family: $sans-serif;
   font-size: rem-calc(11);

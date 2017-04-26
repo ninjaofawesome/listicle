@@ -1,0 +1,36 @@
+.navbar {
+
+  &__container {
+    height: rem-calc(50);
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: white;
+    border-bottom: rem-calc(1) solid $brand-green;
+    z-index: 10;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+
+  &__logo {
+    @include NavbarLogo();
+    margin: rem-calc(13 0 13 10);
+  }
+
+  &__list {
+    display: inline;
+    position: absolute;
+    right: rem-calc(5);
+
+  }
+
+  &__list-item {
+    list-style-type: none;
+    display: inline;
+
+    &--link {
+      @include PageLink();
+    }
+  }
+}

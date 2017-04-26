@@ -24,43 +24,88 @@ body {
   display: flex;
   flex-flow: row wrap; }
 
-.newsfeed__article-list {
-  list-style-type: none; }
+.navbar__container {
+  height: 3.125rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: white;
+  border-bottom: 0.0625rem solid #acca59;
+  z-index: 10;
+  margin: 0;
+  padding: 0;
+  width: 100%; }
 
-.newsfeed__article-item {
-  position: relative;
-  padding-bottom: 1.9375rem;
-  padding-top: 1.875rem; }
-  .newsfeed__article-item:first-of-type {
-    padding-top: 0; }
+.navbar__logo {
+  color: #acca59;
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-size: 1.875rem;
+  font-weight: 700;
+  line-height: 2.125rem;
+  display: inline-block;
+  margin: 0.8125rem 0 0.8125rem 0.625rem; }
 
-.newsfeed__eyebrow {
-  color: #555;
-  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-  font-size: 0.625rem;
-  font-weight: 300;
-  line-height: 0.75rem; }
-  .newsfeed__eyebrow--topic::before {
-    content: "|";
-    display: "inline-block";
-    padding-right: 0.3125rem; }
+.navbar__list {
+  display: inline;
+  position: absolute;
+  right: 0.3125rem; }
 
-.newsfeed__link {
-  color: #f85d00;
-  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-  font-size: 0.6875rem;
-  font-weight: 800;
-  line-height: 0.9375rem;
-  text-transform: uppercase;
-  text-decoration: none; }
-  .newsfeed__link:active, .newsfeed__link:focus, .newsfeed__link:hover, .newsfeed__link:visited {
-    color: #f85d00;
+.navbar__list-item {
+  list-style-type: none;
+  display: inline; }
+  .navbar__list-item--link {
+    -webkit-transition: all 350ms ease-out;
+    -moz-transition: all 350ms ease-out;
+    -o-transition: all 350ms ease-out;
+    transition: all 350ms ease-out;
+    color: #acca59;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 0.6875rem;
+    font-weight: 300;
+    line-height: 0.9375rem;
+    display: inline-block;
     text-decoration: none;
-    outline: none; }
-  .newsfeed__link::after {
-    content: ">>";
-    display: "inline-block";
-    padding-left: 0.3125rem; }
+    text-transform: uppercase; }
+    .navbar__list-item--link:active, .navbar__list-item--link:focus, .navbar__list-item--link:hover, .navbar__list-item--link:visited {
+      text-decoration: none;
+      color: #acca59; }
+
+.newsfeed {
+  z-index: 0; }
+  .newsfeed__article-list {
+    list-style-type: none; }
+  .newsfeed__article-item {
+    position: relative;
+    padding-bottom: 1.9375rem;
+    padding-top: 1.875rem; }
+    .newsfeed__article-item:first-of-type {
+      padding-top: 0; }
+  .newsfeed__eyebrow {
+    color: #555;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 0.625rem;
+    font-weight: 300;
+    line-height: 0.75rem; }
+    .newsfeed__eyebrow--topic::before {
+      content: "|";
+      display: "inline-block";
+      padding-right: 0.3125rem; }
+  .newsfeed__link {
+    color: #f85d00;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 0.6875rem;
+    font-weight: 800;
+    line-height: 0.9375rem;
+    text-transform: uppercase;
+    text-decoration: none; }
+    .newsfeed__link:active, .newsfeed__link:focus, .newsfeed__link:hover, .newsfeed__link:visited {
+      color: #f85d00;
+      text-decoration: none;
+      outline: none; }
+    .newsfeed__link::after {
+      content: ">>";
+      display: "inline-block";
+      padding-left: 0.3125rem; }
 
 .newsfeed-article__title {
   color: #111;
@@ -101,7 +146,7 @@ body {
     padding-left: 0.625rem;
     max-width: 66.66667%;
     display: block;
-    margin: 0 auto; } }
+    margin: 4.0625rem auto 0; } }
   @media screen and (min-width: 64em) and (min-width: 40em) {
     .newsfeed {
       padding-right: 0.9375rem;
@@ -128,7 +173,8 @@ body {
     max-width: 100%;
     padding-right: 0.625rem;
     padding-left: 0.625rem;
-    max-width: 100%; } }
+    max-width: 100%;
+    margin-top: 4.0625rem; } }
   @media screen and (max-width: 63.9375em) and (min-width: 40em) {
     .newsfeed {
       padding-right: 0.9375rem;
