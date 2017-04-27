@@ -14,7 +14,7 @@ Listicle shows a list of mock articles (with real links), and works on mobile, t
 
 This should run automatically on localhost:3000
 
-##  What future improvements will be made to listicle?
+## What future improvements will be made to listicle?
 
 1. Adding client side Javascript.  Currently there is none working.
 
