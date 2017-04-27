@@ -22,6 +22,8 @@ This should run automatically on localhost:3000
 
 3. Refining the behavior on all devices.
 
+4. Minor bugs in gulp file to address.
+
 ##  Can I contact you with suggestions?
 
 Sure!  This was a learning experience for me, so I encourage others to fork and PR this if they're interested in contributing.
