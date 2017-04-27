@@ -1,0 +1,20 @@
+.footer-container {
+  @include flex-grid-column(12);
+
+  height: rem-calc(65);
+  border-top: rem-calc(1) solid $black;
+  text-align: center;
+}
+
+.footer {
+
+  &__title {
+    @include PageLink($brand-yellow);
+
+    margin: rem-calc(25) auto;
+  }
+
+  &__link {
+    @include PageLink($brand-green);
+  }
+}

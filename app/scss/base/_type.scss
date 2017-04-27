@@ -17,9 +17,9 @@
   display: inline-block;
 }
 
-@mixin PageLink(){
+@mixin PageLink($color: $brand-green){
   @include link-transition(350ms);
-  color: $brand-green;
+  color: $color;
   font-family: $sans-serif;
   font-size: rem-calc(11);
   font-weight: 300;
@@ -33,7 +33,7 @@
   &:hover,
   &:visited {
     text-decoration: none;
-    color: $brand-green;
+    color: $color;
   }
 }
 
